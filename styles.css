@@ -1,6 +1,4 @@
 
-/* цвет вторичный, футер #2F303A; */
-
  :root { 
   --text-color-black: #212121;
   --text-color-grey: #757575;
@@ -8,10 +6,11 @@
   --accent-color: #2196F3;
   --bt-primary: #F5F4FA;
   --bt-second: #2196F3;
+  --block-color: #F5F4FA;
+  --color-footer: #2F303A;
  }
 
-.page {
-    background-color: var(--text-color-white);
+ .page {
     color: var(--text-color-black);
     font-family: Roboto, sans-serif;
 }
@@ -42,7 +41,7 @@ a {
     letter-spacing: 0.03em;
 }
 
-/* header nav */
+/* header nav PORTFOLIO*/
   
   .site-nav a{
       color: var(--text-color-black);
@@ -80,7 +79,7 @@ a {
     line-height: 1.625;
 }
 
-/* main */
+/* main portfolio*/
 .portfolio-card p {
 color: var(--text-color-grey);
 }
@@ -94,7 +93,7 @@ letter-spacing: 0.06em;
 
 /* footer */
 .footer {
-  background-color: #2F303A;
+  background-color: var(--color-footer);
 }
 
 .info-studio a,span{
@@ -115,11 +114,10 @@ letter-spacing: 0.06em;
   font-weight: normal;
 }
 
-/* index  он же студио studio */
+/* index  он же STUDIO */
 
 .mainweb {
-  background-color: #2F303A;
-  
+  background-color: var(--color-footer);
 }
 
  h1 {
@@ -182,6 +180,10 @@ top: 1061px;
   height: 294px;
   left: 1015px;
   top: 1061px;
+}
+
+.team  {
+  background-color: var(--block-color);
 }
 
 .designer {
